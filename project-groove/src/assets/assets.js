@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from  './song4.mp3'
+import song5 from  './song5.mp3'
+import song6 from  './song6.mp3'
+import song7 from  './song7.mp3'
+import song8 from  './song8.mp3'
 
 export const assets = {
     bell_icon,
@@ -125,58 +130,58 @@ export const songsData = [
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Naalo Nenu",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        desc:"Sameera Bharadwaj",
+        duration:"3:47"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Violin Song",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        desc:"David Simon, Anitha Karthikeyan",
+        duration:"4:24"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Tum hi ho bandhu",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file:song4,
+        desc:"Kavita Seth, Pritam",
+        duration:"4:43"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Nenu Nuvvantu",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        file:song5,
+        desc:"Naresh Iyer, Nadeesh",
+        duration:"4:48"
     },
     {
         id:5,
-        name: "Song Six",
+        name: "Gallan Goodiyaan",
         image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        file:song6,
+        desc:"Shankar Mahadevan, Yashita",
+        duration:"4:56"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Let Me Down Slowly",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        file:song7,
+        desc:"Alec Benjamin",
+        duration:"2:49"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "What Makes You Beautiful",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        file:song8,
+        desc:"One Direction",
+        duration:"3:19"
     }
 ]
