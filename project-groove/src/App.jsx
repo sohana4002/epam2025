@@ -3,11 +3,13 @@ import Sidebar from "./components/Sidebar";
 import Player from "./components/Player";
 import Display from "./components/Display";
 import {PlayerContext} from "./context/PlayerContext";
+import LandingPage from "./components/LandingPage";
 
 const App = () => {
   const {audioRef,track}=useContext(PlayerContext);
   return (
-    <div className="h-full bg-black flex flex-col">
+    <div className="h-full bg-white flex flex-col">
+      <LandingPage/>
       <div className="flex-1 flex">
         <Sidebar />
         <Display/>
